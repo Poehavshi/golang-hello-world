@@ -14,9 +14,15 @@ func main() {
 	fmt.Println(len("Hello World"))
 	fmt.Println("Hello World"[1])
 	fmt.Println("Hello " + "World")
-	var helloWorld string = "Hello world"
+	var helloWorld = "Hello world"
 	fmt.Println(helloWorld)
 
 	newString := "string"
 	fmt.Println(newString)
+
+	fmt.Print("Enter a number: ")
+	var input float64
+	fmt.Scanf("%f", &input)
+	output := input * 2
+	fmt.Println("x2", output)
 }
